@@ -3,6 +3,7 @@
 (Store random number from 1 to 100) 
  
  # How to play :  
+ 
  Guess the number game ask user what is your guess? 
  
  
@@ -15,4 +16,13 @@
  
  its allow the user to rest the game at any time they wanted.  
  
+ (Built with HTML, CSS, JavaScript)
+ 
+ 
  # Click the link blow to play
+ 
+ # GitHub Pages (URL FOR Playing the game)
+ 
+ https://saddamarbaa.github.io/Advent-Calendar/index.html
+ 
+
