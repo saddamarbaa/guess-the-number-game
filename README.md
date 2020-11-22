@@ -19,9 +19,7 @@
  (Built with HTML, CSS, JavaScript)
  
  
- # Click the link blow to play
- 
- # GitHub Pages (URL FOR Playing the game)
+ # Click the link blow to play the game (GitHub Pages)
  
  https://saddamarbaa.github.io/Advent-Calendar/index.html
  
