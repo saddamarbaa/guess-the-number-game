@@ -24,8 +24,9 @@ window.onload = function() {
 /**
  * Functionality for playing the whole game
  */
-function playGame(){
-  // *CODE GOES BELOW HERE *
+function playGame() {
+    let numberGuess = document.getElementById('number-submit').value;
+    console.log(numberGuess);
 }
 
 /**
@@ -40,23 +41,23 @@ function playGame(){
  * Initialize a new game by resetting all values and content on the page
  * HINT: reset the correctNumber, guesses, and HTML content
  */
-function initGame(){
-  // *CODE GOES BELOW HERE *
+function initGame() {
+    // *CODE GOES BELOW HERE *
 }
 
 /**
  * Reset the HTML content for guess history
  */
-function resetResultContent(){
-  document.getElementById("result").innerHTML = "";
+function resetResultContent() {
+    document.getElementById("result").innerHTML = "";
 }
 
 /**
  * Return a random number between 1 and 100
  * HINT: Use Math.random 
  */
-function getRandomNumber(){
-  // *CODE GOES BELOW HERE *
+function getRandomNumber() {
+    // *CODE GOES BELOW HERE *
 }
 
 /**
@@ -65,7 +66,7 @@ function getRandomNumber(){
  * HINT: Use the guesses variable
  */
 function saveGuessHistory(guess) {
-  // *CODE GOES BELOW HERE *
+    // *CODE GOES BELOW HERE *
 }
 
 /**
@@ -77,11 +78,11 @@ function saveGuessHistory(guess) {
  * HINT: use while loop and string concatentation to create a list of guesses
  */
 function displayHistory() {
-  let index; // TODO
-  let list = "<ul class='list-group'>";
-  // *CODE GOES BELOW HERE *
-  list += '</ul>'
-  document.getElementById("history").innerHTML = list;
+    let index; // TODO
+    let list = "<ul class='list-group'>";
+    // *CODE GOES BELOW HERE *
+    list += '</ul>'
+    document.getElementById("history").innerHTML = list;
 }
 
 
@@ -89,53 +90,53 @@ function displayHistory() {
 /**
  * Retrieve the dialog based on if the guess is wrong or correct 
  */
-function getDialog(dialogType, text){
-  let dialog;
-  switch(dialogType){
-    case "warning":
-      dialog = "<div class='alert alert-warning' role='alert'>"
-      break;
-    case "won":
-      dialog = "<div class='alert alert-success' role='alert'>"
-      break;
-  }
-  dialog += text;
-  dialog += "</div>"
-  return dialog;
+function getDialog(dialogType, text) {
+    let dialog;
+    switch (dialogType) {
+        case "warning":
+            dialog = "<div class='alert alert-warning' role='alert'>"
+            break;
+        case "won":
+            dialog = "<div class='alert alert-success' role='alert'>"
+            break;
+    }
+    dialog += text;
+    dialog += "</div>"
+    return dialog;
 }
 
-function showYouWon(){
-  const text = "Awesome job, you got it!"
-  /**
-   * Retrieve the dialog using the getDialog() function
-   * and save it to variable called dialog
-   * HINT: Use the 'won' and text parameters 
-   */
-  // *CODE GOES BELOW HERE *
+function showYouWon() {
+    const text = "Awesome job, you got it!"
+        /**
+         * Retrieve the dialog using the getDialog() function
+         * and save it to variable called dialog
+         * HINT: Use the 'won' and text parameters 
+         */
+        // *CODE GOES BELOW HERE *
 
-  document.getElementById("result").innerHTML = dialog;
+    document.getElementById("result").innerHTML = dialog;
 }
 
-function showNumberAbove(){
-  const text = "Your guess is too high!"
-  /**
-   * Retrieve the dialog using the getDialog() function
-   * and save it to variable called dialog
-   * HINT: Use the 'warning' and text parameters 
-   */
-  // *CODE GOES BELOW HERE *
+function showNumberAbove() {
+    const text = "Your guess is too high!"
+        /**
+         * Retrieve the dialog using the getDialog() function
+         * and save it to variable called dialog
+         * HINT: Use the 'warning' and text parameters 
+         */
+        // *CODE GOES BELOW HERE *
 
-  document.getElementById("result").innerHTML = dialog;
+    document.getElementById("result").innerHTML = dialog;
 }
 
-function showNumberBelow(){
-  const text = "Your guess is too low!"
-  /**
-   * Retrieve the dialog using the getDialog() function
-   * and save it to variable called dialog
-   * HINT: Use the 'warning' and text parameters 
-   */
-  // *CODE GOES BELOW HERE *
+function showNumberBelow() {
+    const text = "Your guess is too low!"
+        /**
+         * Retrieve the dialog using the getDialog() function
+         * and save it to variable called dialog
+         * HINT: Use the 'warning' and text parameters 
+         */
+        // *CODE GOES BELOW HERE *
 
-  document.getElementById("result").innerHTML = dialog;
+    document.getElementById("result").innerHTML = dialog;
 }
