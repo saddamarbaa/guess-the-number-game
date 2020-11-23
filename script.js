@@ -49,11 +49,11 @@ function playGame() {
  */
 function displayResult(numberGuess) {
     if (numberGuess > correctNumber) {
-        console.log("your guess is too high");
+        showNumberAbove();
     } else if (numberGuess < correctNumber) {
-        console.log("your guess is too low");
+        showNumberBelow();
     } else {
-        console.log("Awesome job you got it");
+        showYouWon();
     }
 }
 
