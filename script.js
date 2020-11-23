@@ -41,6 +41,7 @@ function playGame() {
     // call displayResult() function
     displayResult(numberGuess);
     saveGuessHistory(numberGuess);
+    displayHistory();
 }
 
 /**  Display the result in HTML
@@ -90,13 +91,14 @@ function getRandomNumber() {
 
 /**
  * Save guess history 
- * HINT: Search Google "append to array in javascript"
  * HINT: Use the guesses variable
  */
 function saveGuessHistory(guess) {
+    // Append new guess to the guesses array
     guesses.push(guess);
-    console.log('yo guess' + guess);
-    console.log(guesses);
+    // for testing
+    // console.log("You guesed" + guess);
+    // console.log(guesses);
 }
 
 /**
@@ -108,11 +110,17 @@ function saveGuessHistory(guess) {
  * HINT: use while loop and string concatentation to create a list of guesses
  */
 function displayHistory() {
-    let index; // TODO
+    let index = 0;
     let list = "<ul class='list-group'>";
-    // *CODE GOES BELOW HERE *
-    list += '</ul>'
+    while (index <= guesses.length) {
+        list += "<li class='list-group-item'>" +
+            "You guessed" + guesses[index] + "</li>";
+        index += 1;
+
+    }
+    list += '</ul>';
     document.getElementById("history").innerHTML = list;
+
 }
 
 /**
