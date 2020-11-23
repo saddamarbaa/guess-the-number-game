@@ -1,7 +1,7 @@
 /**
  * Guess The Number Game
- * TODO: Get user value from input and save it to variable numberGuess
- * TODO: Generate a random number 1 to 100 and save it to variable correctNumber
+ * DONE: Get user value from input and save it to variable numberGuess
+ * DONE: Generate a random number 1 to 100 and save it to variable correctNumber
  * TODO: Console whether the guess is too high, too low, or is correct inside playGame function
  * TODO: Create a function called displayResult to move the logic for if the guess is too high, too low, or correct
  * TODO: Complete the showYouWon, showNumberAbove, showNumberBelow
@@ -13,13 +13,17 @@
 
 // Variable to store the list of guesses 
 
-// Variable for store the correct random number 
+
+// Variable for store the correct random number
+// call getRandomNumber()  function
+let correctNumber = getRandomNumber();
 
 
 window.onload = function() {
     document.getElementById("number-submit").addEventListener("click", playGame);
     document.getElementById("restart-game").addEventListener("click", initGame)
 }
+
 
 /**
  * Functionality for playing the whole game
@@ -58,7 +62,14 @@ function resetResultContent() {
  * HINT: Use Math.random 
  */
 function getRandomNumber() {
-    // *CODE GOES BELOW HERE *
+    // Math.random() returns a random number between 0 (inclusive), and 1 (exclusive)
+    let randomNumber = Math.random();
+    // returns a random integer from 0 to 100 
+    let wholeNumber = Math.floor(randomNumber * 100 + 1);
+    // for testing
+    console.log(randomNumber);
+    console.log(wholeNumber);
+    return wholeNumber;
 }
 
 /**
