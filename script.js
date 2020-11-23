@@ -110,17 +110,19 @@ function saveGuessHistory(guess) {
  * HINT: use while loop and string concatentation to create a list of guesses
  */
 function displayHistory() {
-    let index = 0;
+    // counter variable declaration and initialization
+    let index = guesses.length - 1;
+    // create a list of guesses
     let list = "<ul class='list-group'>";
-    while (index <= guesses.length) {
-        list += "<li class='list-group-item'>" +
-            "You guessed" + guesses[index] + "</li>";
-        index += 1;
-
+    while (index >= 0) {
+        // string concatentation to list of guesses
+        list += "<li class='list-group-item'>" + "You guessed" + guesses[index] + "</li>";
+        // decrement counter by one
+        index -= 1;
     }
     list += '</ul>';
+    // add the list to html div with ID history
     document.getElementById("history").innerHTML = list;
-
 }
 
 /**
