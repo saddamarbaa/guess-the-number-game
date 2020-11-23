@@ -9,6 +9,7 @@
  * DONE: Save the guess history in a variable called guess
  * DONE: Display the guess history using displayHistory() function
  * DONE: Use the initGame() function to restart the game
+ * TODO: Improve the code efficiency as much as possible
  */
 
 // Variable to store the list of guesses 
