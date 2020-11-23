@@ -21,7 +21,8 @@ let correctNumber = getRandomNumber();
 
 window.onload = function() {
     document.getElementById("number-submit").addEventListener("click", playGame);
-    document.getElementById("restart-game").addEventListener("click", initGame)
+    document.getElementById("restart-game").addEventListener("click", initGame);
+    showNumberBelow();
 }
 
 
@@ -130,8 +131,7 @@ function showYouWon() {
          * and save it to variable called dialog
          * HINT: Use the 'won' and text parameters 
          */
-        // *CODE GOES BELOW HERE *
-
+    let dialog = getDialog("won", text);
     document.getElementById("result").innerHTML = dialog;
 }
 
@@ -142,8 +142,7 @@ function showNumberAbove() {
          * and save it to variable called dialog
          * HINT: Use the 'warning' and text parameters 
          */
-        // *CODE GOES BELOW HERE *
-
+    let dialog = getDialog("warning", text);
     document.getElementById("result").innerHTML = dialog;
 }
 
@@ -154,7 +153,6 @@ function showNumberBelow() {
          * and save it to variable called dialog
          * HINT: Use the 'warning' and text parameters 
          */
-        // *CODE GOES BELOW HERE *
-
+    let dialog = getDialog("warning", text);
     document.getElementById("result").innerHTML = dialog;
 }
