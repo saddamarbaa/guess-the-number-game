@@ -24,10 +24,21 @@
   https://saddamarbaa.github.io/Guess-The-Number-Game/index.html
 
 
-# When the user guess is smaller than correct number
+
+
+# When the user guess is bigger than correct number
+
 
 
   ![image](https://user-images.githubusercontent.com/51326421/100022565-fc7a5a80-2e15-11eb-9b50-bd8c668d35a7.png)
 
  
 
+
+
+# When the user guess is smaller than correct number
+
+
+
+  
+![image](https://user-images.githubusercontent.com/51326421/100022926-9f32d900-2e16-11eb-9d5c-c30261624254.png)
