@@ -65,12 +65,14 @@ function displayResult(numberGuess) {
  * HINT: reset the correctNumber, guesses, and HTML content
  */
 function initGame() {
-    // reset the correctNumber
+    // Reset the correctNumber
     correctNumber = "";
-    displayResult("");
+    // Reset the result display
+    document.getElementById("result").innerHTML = "";
+    // Reset the guesses array
+    guesses = [];
+    // Reset the guess displayHistory()
 
-    guesses = "";
-    resetResultContent();
 }
 
 /**
