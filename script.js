@@ -1,8 +1,5 @@
-/**
+/** 
  * Guess The Number Game
- */
-
-/**
  * DONE: Get user value from input and save it to variable numberGuess
  * DONE: Generate a random number 1 to 100 and save it to variable correctNumber
  * DONE: Console whether the guess is too high, too low, or is correct inside playGame function
@@ -10,7 +7,7 @@
  * DONE: Complete the showYouWon, showNumberAbove, showNumberBelow
  * DONE: Use the showYouWon... functions within displayResult to display the correct dialog
  * DONE: Save the guess history in a variable called guess
- * TODO: Display the guess history using displayHistory() function
+ * DONE: Display the guess history using displayHistory() function
  * TODO: Use the initGame() function to restart the game
  */
 
@@ -24,7 +21,6 @@ let correctNumber = getRandomNumber();
 window.onload = function() {
     document.getElementById("number-submit").addEventListener("click", playGame);
     document.getElementById("restart-game").addEventListener("click", initGame);
-
     // blow for testing
     // showNumberBelow();
     // showNumberAbove();
@@ -40,11 +36,14 @@ function playGame() {
     // console.log(numberGuess); // for testing
     // call displayResult() function
     displayResult(numberGuess);
+    // call saveGuessHistory() function
     saveGuessHistory(numberGuess);
+    // call displayHistory() function
     displayHistory();
 }
 
-/**  Display the result in HTML
+/**  
+ * Display the result in HTML
  * Show the result for if the guess it too high, too low, or correct
  * HINT: Use if, else if, else statement 
  */
@@ -102,7 +101,7 @@ function saveGuessHistory(guess) {
 }
 
 /**
- * Display guess history to user
+ * Display guess history to user in HTML 
  * HTML TO USE:
  * <ul class='list-group'>
  *  <li class='list-group-item'>You guessed {number}</li
@@ -116,7 +115,10 @@ function displayHistory() {
     let list = "<ul class='list-group'>";
     while (index >= 0) {
         // string concatentation to list of guesses
-        list += "<li class='list-group-item'>" + "You guessed" + guesses[index] + "</li>";
+        list +=
+            "<li class='list-group-item'>" +
+            "You guessed : " + guesses[index] +
+            "</li>";
         // decrement counter by one
         index -= 1;
     }
