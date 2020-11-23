@@ -1,10 +1,13 @@
 /**
  * Guess The Number Game
+ */
+
+/**
  * DONE: Get user value from input and save it to variable numberGuess
  * DONE: Generate a random number 1 to 100 and save it to variable correctNumber
  * DONE: Console whether the guess is too high, too low, or is correct inside playGame function
  * DONE: Create a function called displayResult to move the logic for if the guess is too high, too low, or correct
- * TODO: Complete the showYouWon, showNumberAbove, showNumberBelow
+ * DONE: Complete the showYouWon, showNumberAbove, showNumberBelow
  * TODO: Use the showYouWon... functions within displayResult to display the correct dialog
  * TODO: Save the guess history in a variable called guess
  * TODO: Display the guess history using displayHistory() function
@@ -18,11 +21,14 @@
 // call getRandomNumber()  function
 let correctNumber = getRandomNumber();
 
-
 window.onload = function() {
     document.getElementById("number-submit").addEventListener("click", playGame);
     document.getElementById("restart-game").addEventListener("click", initGame);
-    showNumberBelow();
+
+    // blow for testing
+    // showNumberBelow();
+    // showNumberAbove();
+    // showYouWon();
 }
 
 
@@ -104,8 +110,6 @@ function displayHistory() {
     document.getElementById("history").innerHTML = list;
 }
 
-
-
 /**
  * Retrieve the dialog based on if the guess is wrong or correct 
  */
@@ -125,34 +129,34 @@ function getDialog(dialogType, text) {
 }
 
 function showYouWon() {
-    const text = "Awesome job, you got it!"
-        /**
-         * Retrieve the dialog using the getDialog() function
-         * and save it to variable called dialog
-         * HINT: Use the 'won' and text parameters 
-         */
+    const text = "Awesome job, you got it!";
+    /**
+     * Retrieve the dialog using the getDialog() function
+     * and save it to variable called dialog
+     * HINT: Use the 'won' and text parameters 
+     */
     let dialog = getDialog("won", text);
     document.getElementById("result").innerHTML = dialog;
 }
 
 function showNumberAbove() {
-    const text = "Your guess is too high!"
-        /**
-         * Retrieve the dialog using the getDialog() function
-         * and save it to variable called dialog
-         * HINT: Use the 'warning' and text parameters 
-         */
-    let dialog = getDialog("warning", text);
+    const text = "Your guess is too high!";
+    /**
+     * Retrieve the dialog using the getDialog() function
+     * and save it to variable called dialog
+     * HINT: Use the 'warning' and text parameters 
+     */
+    let dialog = getDialog("warning", text)
     document.getElementById("result").innerHTML = dialog;
 }
 
 function showNumberBelow() {
-    const text = "Your guess is too low!"
-        /**
-         * Retrieve the dialog using the getDialog() function
-         * and save it to variable called dialog
-         * HINT: Use the 'warning' and text parameters 
-         */
+    const text = "Your guess is too low!";
+    /**
+     * Retrieve the dialog using the getDialog() function
+     * and save it to variable called dialog
+     * HINT: Use the 'warning' and text parameters 
+     */
     let dialog = getDialog("warning", text);
     document.getElementById("result").innerHTML = dialog;
 }
