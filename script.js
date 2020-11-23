@@ -8,7 +8,7 @@
  * DONE: Console whether the guess is too high, too low, or is correct inside playGame function
  * DONE: Create a function called displayResult to move the logic for if the guess is too high, too low, or correct
  * DONE: Complete the showYouWon, showNumberAbove, showNumberBelow
- * TODO: Use the showYouWon... functions within displayResult to display the correct dialog
+ * DONE: Use the showYouWon... functions within displayResult to display the correct dialog
  * TODO: Save the guess history in a variable called guess
  * TODO: Display the guess history using displayHistory() function
  * TODO: Use the initGame() function to restart the game
@@ -39,20 +39,23 @@ function playGame() {
     // Get user value from input and save it to variable numberGuess
     let numberGuess = document.getElementById("number-guess").value;
     // console.log(numberGuess); // for testing
-    // call displayResult()
+    // call displayResult() function
     displayResult(numberGuess);
 }
 
-/**
+/**  Display the result in HTML
  * Show the result for if the guess it too high, too low, or correct
  * HINT: Use if, else if, else statement 
  */
 function displayResult(numberGuess) {
     if (numberGuess > correctNumber) {
+        // call showNumberAbove() function
         showNumberAbove();
     } else if (numberGuess < correctNumber) {
+        // call showNumberBelow() function
         showNumberBelow();
     } else {
+        // call showYouWon() function
         showYouWon();
     }
 }
@@ -146,7 +149,7 @@ function showNumberAbove() {
      * and save it to variable called dialog
      * HINT: Use the 'warning' and text parameters 
      */
-    let dialog = getDialog("warning", text)
+    let dialog = getDialog("warning", text);
     document.getElementById("result").innerHTML = dialog;
 }
 
