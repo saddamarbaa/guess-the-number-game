@@ -32,6 +32,7 @@ function playGame() {
     // Get user value from input and save it to variable numberGuess
     let numberGuess = document.getElementById("number-guess").value;
     // console.log(numberGuess); // for testing
+    // call displayResult()
     displayResult(numberGuess);
 }
 
@@ -40,7 +41,6 @@ function playGame() {
  * HINT: Use if, else if, else statement 
  */
 function displayResult(numberGuess) {
-    // Console whether the guess is too high, too low, or is correct
     if (numberGuess > correctNumber) {
         console.log("your guess is too high");
     } else if (numberGuess < correctNumber) {
