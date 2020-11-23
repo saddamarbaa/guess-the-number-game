@@ -26,7 +26,13 @@
 
 
 
-# When the user guess is bigger than correct number
+
+
+
+
+
+
+# When the user guess is smaller  than correct number
 
 
 
@@ -36,7 +42,14 @@
 
 
 
-# When the user guess is smaller than correct number
+
+
+
+
+
+
+
+# When the user guess is bigger than correct number
 
 
 
