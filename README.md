@@ -40,6 +40,8 @@
 ![image](https://user-images.githubusercontent.com/51326421/100023401-7e1eb800-2e17-11eb-8cae-98d86450ec3c.png)
 
 
+
+
 #  DONE
 
 DONE : Get user value from input and save it to variable numberGuess
@@ -65,9 +67,12 @@ DONE : Save the guess history in a variable called guess
 
 DONE : Display the guess history using displayHistory() function
  
- 
+
 DONE : Use the initGame() function to restart the game
  
+
+
+
 
 # TODO
 
