@@ -67,10 +67,11 @@ function displayResult(numberGuess) {
 function initGame() {
     // Reset the correctNumber
     correctNumber = getRandomNumber();
-    // Reset the result display
-    document.getElementById("result").innerHTML = "";
     // Reset the guesses array
     guesses = [];
+    // Reset the result display (call resetResultContent() function)
+    // document.getElementById("result").innerHTML = "";
+    resetResultContent();
     // Reset the guess History display
     displayHistory();
 }
@@ -96,13 +97,13 @@ function getRandomNumber() {
 }
 
 /**
- * Save guess history 
+ * Save guess history(the user guess entered from the input)
  * HINT: Use the guesses variable
  */
 function saveGuessHistory(guess) {
     // Append new guess to the guesses array
     guesses.push(guess);
-    // for testing
+    // blow for testing
     // console.log("You guesed" + guess);
     // console.log(guesses);
 }
