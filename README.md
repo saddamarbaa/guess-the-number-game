@@ -1,8 +1,8 @@
-# Guess-The-Number-Game
+## Guess-The-Number-Game
 
-(Store random number from 1 to 100) 
+ Guess the number game (Store random number from 1 to 100) 
  
- # How to play :  
+ ## How to play :  
  
  Guess the number game ask user What's your guess ?
  
@@ -19,28 +19,28 @@
  (Built with HTML, CSS, JavaScript)
  
  
- # Click the link blow to play the game (GitHub Pages)
+ ## Click the link blow to play the game (GitHub Pages)
  
 https://saddamarbaa.github.io/guess-the-number-game/. 
 
 
-# When the user guess is smaller  than correct number
+## When the user guess is smaller  than correct number
 
   ![image](https://user-images.githubusercontent.com/51326421/100022565-fc7a5a80-2e15-11eb-9b50-bd8c668d35a7.png)
 
 
-# When the user guess is bigger than correct number
+## When the user guess is bigger than correct number
   
 ![image](https://user-images.githubusercontent.com/51326421/100022926-9f32d900-2e16-11eb-9d5c-c30261624254.png)
 
 
-# When the user guessed the correct number
+## When the user guessed the correct number
 ![image](https://user-images.githubusercontent.com/51326421/100023401-7e1eb800-2e17-11eb-8cae-98d86450ec3c.png)
 
 
 
 
-#  DONE
+##  DONE
 
 DONE : Get user value from input and save it to variable numberGuess
 
@@ -70,9 +70,7 @@ DONE : Use the initGame() function to restart the game
  
 
 
-
-
-# TODO
+## TODO
 
 TODO : Improve the code efficiency as much as possible
  
