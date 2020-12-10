@@ -29,7 +29,6 @@
 
   ![image](https://user-images.githubusercontent.com/51326421/100022565-fc7a5a80-2e15-11eb-9b50-bd8c668d35a7.png)
 
- 
 
 # When the user guess is bigger than correct number
   
