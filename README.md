@@ -21,7 +21,7 @@
  
  # Click the link blow to play the game (GitHub Pages)
  
-  https://saddamarbaa.github.io/Guess-The-Number-Game/index.html
+https://saddamarbaa.github.io/guess-the-number-game/. 
 
 
 
