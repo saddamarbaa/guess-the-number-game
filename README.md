@@ -2,7 +2,7 @@
 
  Guess the number game (Store random number from 1 to 100) 
  
- Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/project_guess_the_number_game/)
+ 
  
  ## How to play :  
  
@@ -19,6 +19,8 @@
  its allow the user to rest the game at any time they wanted.  
  
  (Built with HTML, CSS, JavaScript)
+ 
+ Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/project_guess_the_number_game/)
  
  
  
