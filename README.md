@@ -2,6 +2,8 @@
 
  Guess the number game (Store random number from 1 to 100) 
  
+ Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/project_guess_the_number_game/)
+ 
  ## How to play :  
  
  Guess the number game ask user What's your guess ?
@@ -19,9 +21,7 @@
  (Built with HTML, CSS, JavaScript)
  
  
- ## Click the link blow to play the game (GitHub Pages)
  
-https://saddamarbaa.github.io/guess-the-number-game/. 
 
 
 ## When the user guess is smaller  than correct number
