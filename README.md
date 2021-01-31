@@ -1,4 +1,4 @@
-## Guess-The-Number-Game
+## Guess The Number Game
 
  Guess the number game (Store random number from 1 to 100) 
 
