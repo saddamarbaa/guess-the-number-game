@@ -1,8 +1,7 @@
 ## Guess-The-Number-Game
 
  Guess the number game (Store random number from 1 to 100) 
- 
- 
+
  
  ## How to play :  
  
@@ -20,9 +19,10 @@
  
  (Built with HTML, CSS, JavaScript)
  
- Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/project_guess_the_number_game/)
- 
- 
+
+ ##### Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/project_guess_the_number_game/)
+
+#### Live Demo:  https://www.loom.com/share/1ade71c4c3e14a28898edcac67f50854
  
 
 
