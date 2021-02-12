@@ -13,7 +13,7 @@ It allows the user to reset the game at any time they wanted.
 (Built with HTML, CSS, JavaScript)
  
 
- ##### Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/project_guess_the_number_game/)
+ ##### Click the link blow to see the [GitHub Pages]: ( https://saddamarbaa.github.io/guess-the-number-game/)
 
 ### <a href="https://www.loom.com/share/1ade71c4c3e14a28898edcac67f50854">LIVE DEMO</a>
  
