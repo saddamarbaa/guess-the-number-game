@@ -5,24 +5,17 @@
  
  ## How to play :  
  
- Guess the number game ask user What's your guess ?
- 
- 
- If the user entered random number which is bigger than correct number will say Your guess is too high!.  
- 
- If the user entered random number which is smaller than correct number will say Your guess is too low!. 
- 
- 
- If the user entered the correct number will say Awesome job, you got it!. 
- 
- its allow the user to rest the game at any time they wanted.  
- 
- (Built with HTML, CSS, JavaScript)
+ ==> Guess the number game ask user What's your guess?
+If the user entered a random number that is bigger than the correct number will say Your guess is too high!.
+If the user entered a random number that is smaller than the correct number will say Your guess is too low!.
+If the user entered the correct number will say Awesome job, you got it!.
+It allows the user to reset the game at any time they wanted.
+(Built with HTML, CSS, JavaScript)
  
 
  ##### Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/project_guess_the_number_game/)
 
-#### Live Demo:  https://www.loom.com/share/1ade71c4c3e14a28898edcac67f50854
+### <a href="https://www.loom.com/share/1ade71c4c3e14a28898edcac67f50854">LIVE DEMO</a>
  
 
 
