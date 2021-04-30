@@ -12,10 +12,15 @@ If the user entered the correct number will say Awesome job, you got it!.
 It allows the user to reset the game at any time they wanted.
 (Built with HTML, CSS, JavaScript)
  
+ ### <a href="https://guess-the-number-game-app.netlify.app/">LIVE DEMO</a>
 
- ##### Click the link blow to see the [GitHub Pages]: ( https://saddamarbaa.github.io/guess-the-number-game/)
 
-### <a href="https://www.loom.com/share/1ade71c4c3e14a28898edcac67f50854">LIVE DEMO</a>
+### <a href="https://saddamarbaa.github.io/guess-the-number-game/">GitHub Pages DEMO</a>
+
+
+
+
+### <a href="https://www.loom.com/share/1ade71c4c3e14a28898edcac67f50854">LIVE DEMO VEDIO</a>
  
 
 
